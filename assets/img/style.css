@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline:none;
+}
+
+body{
+    position:relative;
+    background: #f0f0f0;
+    font-family: sans-serif;
+}
+
+/* INICIO MENU PRINCIPAL */
+
+.menu-site{
+    position: fixed;
+    top: 0;
+    left 0;
+    background: #fff;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 2.5vw;
+
+    /* FIM MENU PRINCIPAL */
+}
+
+ /* INICIO MENU HAMBURGUER */
+
+.hamburguer-btn{
+    width: 20px;
+    height: 10px;
+    position: relative;
+    cursor: pointer;
+    background: #000;
+   
+}
+
+.hamburguer-btn{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    transform: translate(-50%);
+    background: #000;
+}
+
+.hamburguer-btn span:nth-child(1){
+    top: 0; 
+}
+
+.hamburguer-btn span:nth-child(1){
+    top: 100%;
+}
+
+/* FIM DO HAMBURGUER */
